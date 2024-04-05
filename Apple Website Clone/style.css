@@ -1,0 +1,596 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Noto Sans", sans-serif;
+
+}
+
+html, body {
+    width: 100%;
+    height: 100%;
+}
+
+.nav-bar {
+    width: 100%;
+    height: 2.9rem;
+    background-color: rgba(0, 0, 0, 0.7); /* Transparent black color with 70% opacity */
+    backdrop-filter: blur(10px); /* Apply a blur effect */
+    position: fixed; /* Fixed position to cover the entire viewport */
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: center; /* Horizontally center the inner div */
+    align-items: center;
+}
+
+.nav-tages{
+    cursor: pointer;
+    height: 100%;
+    width: 2560px;
+    display: flex;
+    gap: 35px;
+    font-weight: 300;
+    justify-content: center;
+    align-items: center;
+    font-size: 0.8rem;
+    color: rgba(255, 255, 255, 0.637);
+    
+}
+
+.nav-tages a:hover{
+    color: white;
+}
+
+.nav-bar img{
+    height: 1rem;
+
+}
+
+.emi-info-top {
+    width: 100%;
+    height: 3rem;
+    margin-top: 3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.emi-info{
+    height: 3rem;
+    width: 2560px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.emi-info a{
+    text-decoration: none;
+    margin-left: 0.5rem;
+}
+
+.emi-info a:hover{
+    text-decoration: underline;
+}
+.main-contex {
+    width: 100%;
+    display: flex; 
+    flex-direction: column; 
+    align-items: center; 
+}
+
+.mac-air{
+    cursor: pointer;
+    width: 2560px;
+    height: 691.99px;
+    background-color: #f5f5f7;
+    display: flex; 
+    flex-direction: column; 
+    align-items: center; 
+}
+
+.mac-air h1{
+    margin-top: 2rem;
+    font-size: 4rem;
+}
+
+.mac-air h3{
+    font-size: 1.9rem;
+    font-weight: 500;
+    margin-left: 3rem;
+}
+
+.btnsincard{
+    margin-top: 1.2rem;    
+    margin-left: 4.2rem;
+}
+
+#learn-more{
+    margin-right: 1.5rem;
+    padding: 0.5rem 1.5rem;
+    border: 1.065px solid #0071e3 ;
+    border-radius: 2rem;
+    background-color: #0071e3;
+    color: white;
+}
+
+#learn-more:hover{
+    background-color: #027af3;
+}
+
+#buy{
+    padding: 0.5rem 1.5rem;
+    border: 1.065px solid #0071e3 ;
+    border-radius: 2rem;
+    color: #0155a9;
+}
+
+#buy:hover{
+    color: white;
+    background-color: #027af3;
+}
+.mac-air {
+    display: flex;
+    align-items: center;
+    background-image: url('/Assets/mac_air.jpeg');
+    background-size: cover; /* Crop the image to cover the container */
+    background-position: center; /* Center the image */
+    height: 692px; /* Set a specific height for the container */
+}
+
+.info {
+    flex: 1;
+    padding: 20px; /* Adjust padding as needed */ /* Text color for the info section */
+}
+
+.ip15pro{
+    cursor: pointer;
+    width: 2560px;
+    display: flex;
+    align-items: center;
+    background-image: url('/Assets/ip15pro.jpg');
+    background-size: cover; /* Crop the image to cover the container */
+    background-position: center; /* Center the image */
+    height: 692px; /* Set a specific height for the container */
+    flex-direction: column; 
+    align-items: center; 
+    color: white;
+}
+
+.ip15pro h1{
+    margin-top: 2rem;
+    font-size: 4rem;
+}
+
+.ip15pro h3{
+    font-size: 1.9rem;
+    font-weight: 500;
+    margin-left: -3rem;
+}
+
+.btnsincard2{
+    margin-top: 1.2rem;    
+    margin-left: 6rem;
+}
+
+#buy-ip15pro{
+    padding: 0.5rem 1.5rem;
+    border: 1.065px solid #0071e3 ;
+    border-radius: 2rem;
+    color: #0155a9;
+    background-color: black;
+}
+
+#buy-ip15pro:hover{
+    color: white;
+    background-color: #027af3;
+}
+
+
+.ip15pro{
+    cursor: pointer;
+    width: 2560px;
+    display: flex;
+    align-items: center;
+    background-image: url('/Assets/ip15pro.jpg');
+    background-size: cover; /* Crop the image to cover the container */
+    background-position: center; /* Center the image */
+    height: 692px; /* Set a specific height for the container */
+    flex-direction: column; 
+    align-items: center; 
+    color: white;
+}
+
+.ip15{
+    cursor: pointer;
+    width: 2560px;
+    display: flex;
+    align-items: center;
+    background-image: url('/Assets/ip15.jpg');
+    background-size: cover; /* Crop the image to cover the container */
+    background-position: center; /* Center the image */
+    height: 692px; /* Set a specific height for the container */
+    flex-direction: column; 
+    align-items: center; 
+    color: white;
+}
+
+
+
+.ip15 h1{
+    margin-top: 2rem;
+    font-size: 4rem;
+    color: black;
+    margin-left: 5rem;
+}
+
+.ip15 h3{
+    font-size: 1.9rem;
+    font-weight: 500;
+    margin-left: -3rem;
+    color: black;
+}
+
+.btnsincard3{
+    margin-top: 1.2rem;    
+    margin-left: 8rem;
+}
+
+.lable-1st-row{
+    width: 2560px;
+    height: 580px;
+    display: flex;
+}
+
+.iwatch{
+    height: 100%;
+    width: 1262px;
+}
+
+.iwatch{
+    cursor: pointer;
+    width: 800px;
+    display: flex;
+    align-items: center;
+    background-image: url('/Assets/iwatch.jpg');
+    background-size: cover; /* Crop the image to cover the container */
+    background-position: center; /* Center the image */
+   height: 100%;
+    flex-direction: column; 
+    align-items: center; 
+    color: white;
+}
+
+.iwatch img{
+    margin-top: 1rem;
+    margin-left: 5rem;
+}
+
+.iwatch h3{
+    margin-left: 2rem;
+}
+.btnsincard4{
+    margin-top: 1.2rem;    
+    margin-left: 3rem;
+}
+
+.ipad{
+    cursor: pointer;
+    width: 800px;
+    display: flex;
+    align-items: center;
+    background-image: url('/Assets/ipad.jpg');
+    background-size: cover; /* Crop the image to cover the container */
+    background-position: center; /* Center the image */
+   height: 100%;
+    flex-direction: column; 
+    align-items: center; 
+}
+
+.ipad h1{
+    font-size: 4rem;
+    color: black;
+    margin-left: 5rem;
+}
+
+
+.air-pods{
+    cursor: pointer;
+    width: 800px;
+    display: flex;
+    align-items: center;
+    background-image: url('/Assets/air-pods.jpg');
+    background-size: cover; /* Crop the image to cover the container */
+    background-position: center; /* Center the image */
+   height: 100%;
+    flex-direction: column; 
+    align-items: center; 
+}
+
+.air-pods h1{
+    font-size: 4rem;
+    color: white;
+    margin-left: -3rem;
+}
+
+.air-pods h3{
+
+    color: white;
+ 
+}
+.mac_pro{
+    cursor: pointer;
+    width: 800px;
+    display: flex;
+    align-items: center;
+    background-image: url('/Assets/mac_pro.jpg');
+    background-size: cover; /* Crop the image to cover the container */
+    background-position: center; /* Center the image */
+   height: 100%;
+    flex-direction: column; 
+    align-items: center; 
+}
+
+.mac_pro h1{
+    font-size: 4rem;
+    margin-left: 5rem;
+}
+.mac_pro h3{
+    
+    margin-left: 10rem;
+}
+.btnsincard7{
+    margin-top: 1.2rem;    
+    margin-left: 9.5rem;
+}
+
+.lable-2st-row{
+    margin-top: 0.5rem;
+    width: 2560px;
+    height: 580px;
+    display: flex;
+}
+
+.lable-3rd-row{
+    margin-top: 0.5rem;
+    width: 2560px;
+    height: 580px;
+    display: flex;
+}
+.home-pod{
+    cursor: pointer;
+    width: 800px;
+    display: flex;
+    align-items: center;
+    background-image: url('/Assets/home_pod.jpg');
+    background-size: cover; /* Crop the image to cover the container */
+    background-position: center; /* Center the image */
+   height: 100%;
+    flex-direction: column; 
+    align-items: center;
+}
+
+.home-pod h1{
+    font-size: 4rem;
+    margin-left: 5rem;
+}
+
+.btnsincard8{
+    margin-top: 1.2rem;    
+    margin-left: 12rem;
+}
+
+.trade_inn{
+    cursor: pointer;
+    width: 800px;
+    display: flex;
+    align-items: center;
+    background-image: url('/Assets/trade.jpg');
+    background-size: cover; /* Crop the image to cover the container */
+    background-position: center; /* Center the image */
+   height: 100%;
+    flex-direction: column; 
+    align-items: center;
+}
+
+.trade_inn h1{
+    font-size: 4rem;
+    margin-left: 5rem;
+}
+
+.trade_inn img{
+    margin-left: 4.4rem;
+}
+
+.btnsincard9{
+    margin-top: 1.2rem;    
+    margin-left: 5.5rem;
+}
+
+.tv-first{
+    margin-top: 1rem;
+    width: 2560px;
+    height: 700px;
+}
+
+.tv-first {
+    display: flex;
+    overflow: hidden;
+     z-index: -10;
+}
+
+.tv-first img {
+    width: 100%;
+    height: auto;
+    margin-left: 1rem;
+    object-fit: cover; /* Ensure images cover the entire grid cell */
+    animation: slide 25s linear infinite; /* Animation for sliding effect */
+}
+
+@keyframes slide {
+    0% {
+        transform: translateX(0);
+    }
+    100% {
+        transform: translateX(-950%); /* Slide each photo to the left */
+    }
+}
+
+.final{
+    width: 2560px;
+    height: 75rem;
+    background-color: #f5f5f7;
+    margin-top: 1rem;
+    display: flex; 
+    flex-direction: column; 
+    align-items: center;
+}
+
+.text_area{
+    height: 100%;
+    width: 100rem;
+    flex-direction: column; 
+    align-items: center;
+    display: flex; 
+}
+.emi-infoin{
+    font-size: 1.5rem;
+}
+
+
+.emi-infoin p{
+    margin-top: 1rem;
+    color: rgba(0, 0, 0, 0.703);
+    font-size: 0.8rem;
+}
+.emi-infoin a{
+    color: black;
+}
+
+.lists{
+    margin-top: 2rem;
+    width: 80rem;
+    height: 50rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.li-colome1{
+    width: 25rem;
+    height: 50rem;
+
+
+}
+
+.no-bullets {
+    list-style-type: none; /* Remove default bullet points */
+    padding-left: 0; /* Remove default left padding */
+}
+
+.li-colome1 h4,
+.li-colome1 li {
+    font-size: 1.1rem;
+    color: rgba(0, 0, 0, 0.703);
+}
+.li-colome1 li{
+    margin-top: 1.3rem;
+    font-size: 1rem;
+}
+
+.li-colome1 li:hover{
+    text-decoration: underline;
+}
+
+.li-colome1 h4{
+    margin-top: 2rem;
+}
+
+
+
+.lable-1st-row{
+    justify-content: center;
+}
+.lable-2st-row{
+    justify-content: center;
+}
+.lable-3rd-row{
+    justify-content: center;
+}
+.apple_stor_info{
+    margin-top: -6rem;
+    margin-left: -45rem;
+    font-size: 0.72rem;
+}
+.apple_stor_info p{
+    color: rgba(0, 0, 0, 0.619);
+}
+
+.apple_stor_info a{
+    color: #0066CC;
+}
+
+.hrline-last{
+    width: 1241.68px;
+    height: 1rem;
+    margin-top: 2rem;
+}
+
+.footer{
+    width: 1241.68px;
+    height: 3rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.footer p{
+    font-size: 0.8rem;
+    color: rgba(0, 0, 0, 0.603);
+}
+
+.footer a{
+    font-size: 0.8rem;
+    color: rgba(0, 0, 0, 0.792);
+    text-decoration: none;
+}
+
+.footer a:hover{
+    text-decoration: underline;
+}
+
+.terms-po{
+    margin-left: -20rem;
+    
+}
+
+.terms-po a{
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+
+@media screen and (max-width: 1006px) {
+    .iwatch{
+        width: 400px;
+    }
+    .ipad{
+        width: 400px;
+    }
+
+    .iwatch{
+        width: 400px;
+    }
+    .air-pods{
+        width: 400px;
+    }
+    .mac_pro{
+        width: 400px;
+    }
+    .home-pod{
+        width: 400px;
+    }
+    .trade_inn{
+        width: 400px;
+    }
+  }

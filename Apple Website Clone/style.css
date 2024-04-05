@@ -134,7 +134,7 @@ html, body {
 .mac-air {
     display: flex;
     align-items: center;
-    background-image: url('/Assets/mac_air.jpeg');
+    background-image: url('Apple Website Clone/Assets/mac_air.jpeg');
     background-size: cover; /* Crop the image to cover the container */
     background-position: center; /* Center the image */
     height: 692px; /* Set a specific height for the container */
